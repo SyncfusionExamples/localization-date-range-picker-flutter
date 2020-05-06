@@ -121,5 +121,5 @@ class _LocalizationInPickerState extends State<LocalizationInPicker> {
 
 **Screenshots**
 
-![Month view](http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img1.png)
-![Year view](http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img2.png)
+<img alt="Month view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img1.png" width="250" height="250" />|
+<img alt="Year view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img2.png" width="250" height="250" />|
