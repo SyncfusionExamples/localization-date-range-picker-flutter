@@ -117,3 +117,9 @@ class _LocalizationInPickerState extends State<LocalizationInPicker> {
   }
 }
 ```
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/11306/how-to-add-new-language-in-flutter-date-range-picker-sfdaterangepicker)**
+
+**Screenshots**
+
+<img alt="Month view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img1.png" width="230" height="400" />|
+<img alt="Year view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-855/flut-855_img2.png" width="230" height="400" />|
