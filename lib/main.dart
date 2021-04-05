@@ -26,7 +26,7 @@ class Localization extends StatelessWidget {
         const Locale('ar'),
       ],
       locale: const Locale('zh'),
-      debugShowCheckedModeBanner: false ,
+      debugShowCheckedModeBanner: false,
       home: LocalizationInPicker(),
     );
   }
@@ -37,17 +37,9 @@ class LocalizationInPicker extends StatefulWidget {
   _LocalizationInPickerState createState() => _LocalizationInPickerState();
 }
 
-List<String> views = <String>['Month', 'Year', 'Decade', 'Century'];
-
 class _LocalizationInPickerState extends State<LocalizationInPicker> {
-  DateRangePickerController _controller;
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    _controller = DateRangePickerController();
-    super.initState();
-  }
+  final DateRangePickerController _controller = DateRangePickerController();
+  final List<String> views = <String>['Month', 'Year', 'Decade', 'Century'];
 
   @override
   Widget build(BuildContext context) {
@@ -81,7 +73,7 @@ class _LocalizationInPickerState extends State<LocalizationInPicker> {
             view: DateRangePickerView.month,
           ),
         )
-      // This trailing comma makes auto-formatting nicer for build methods.
-    );
+        // This trailing comma makes auto-formatting nicer for build methods.
+        );
   }
 }
