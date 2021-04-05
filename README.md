@@ -69,17 +69,10 @@ class LocalizationInPicker extends StatefulWidget {
   _LocalizationInPickerState createState() => _LocalizationInPickerState();
 }
  
-List<String> views = <String>['Month', 'Year', 'Decade', 'Century'];
- 
+
 class _LocalizationInPickerState extends State<LocalizationInPicker> {
-  DateRangePickerController _controller;
- 
-  @override
-  void initState() {
-    // TODO: implement initState
-    _controller = DateRangePickerController();
-    super.initState();
-  }
+  final DateRangePickerController _controller = DateRangePickerController();
+  final List<String> views = <String>['Month', 'Year', 'Decade', 'Century'];
  
   @override
   Widget build(BuildContext context) {
